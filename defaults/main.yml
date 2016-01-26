@@ -1,0 +1,4 @@
+---
+
+cert_upload_path: "/etc/pki/tls/certs/"
+key_upload_path: "/etc/pki/tl/private/"

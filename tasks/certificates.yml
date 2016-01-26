@@ -1,0 +1,11 @@
+---
+
+- name: Upload TLS certificate files
+  template:
+    src: "certificate.j2"
+    dest: "{{cert_upload_path}}"
+    owner: "root"
+    group: "root"
+    mode: 0444
+  with_items: certificates
+  when: required_tls_certs is defined and item.name in required_tls_certs

@@ -1,0 +1,10 @@
+---
+
+- hosts: all
+  become: true
+  vars:
+    required_tls_certs:
+      - my.wildcard.certificate.com.crt
+      
+  roles:
+    - Certs

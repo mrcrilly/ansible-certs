@@ -1,0 +1,31 @@
+---
+
+certificates:
+  - name: "my.wildcard.certificate.com.crt"
+    certificate: |
+      ALL THE CERT
+      TEST HERE
+      CAREFULLY INDENTED
+      CORRECTLY!
+
+  - name: "my.second.wildcard.certificate.co.uk.crt"
+    certificate: |
+      ALL THE CERT 2
+      TEST HERE
+      CAREFULLY INDENTED
+      CORRECTLY!
+
+keys:
+  - name: "my.wildcard.certificate.com.key"
+    certificate: |
+      ALL THE PRIVATE KEY
+      TEST HERE
+      CAREFULLY INDENTED
+      CORRECTLY!
+
+  - name: "my.second.wildcard.certificate.co.uk.key"
+    certificate: |
+      ALL THE PRIVATE KEY 2
+      TEST HERE
+      CAREFULLY INDENTED
+      CORRECTLY!

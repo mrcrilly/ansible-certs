@@ -1,0 +1,7 @@
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "centosbase"
+  config.vm.provision :ansible do |a|
+    a.playbook = "site.yml"
+  end
+end
